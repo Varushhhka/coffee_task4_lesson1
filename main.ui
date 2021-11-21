@@ -6,12 +6,12 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>760</width>
+    <width>748</width>
     <height>382</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Form</string>
+   <string>Кофе</string>
   </property>
   <widget class="QTableWidget" name="tableWidget">
    <property name="geometry">
@@ -19,7 +19,7 @@
      <x>20</x>
      <y>20</y>
      <width>701</width>
-     <height>331</height>
+     <height>271</height>
     </rect>
    </property>
    <column>
@@ -29,34 +29,61 @@
    </column>
    <column>
     <property name="text">
-     <string>название сорта</string>
+     <string>Название сорта</string>
     </property>
    </column>
    <column>
     <property name="text">
-     <string>степень обжарки</string>
+     <string>Степень обжарки</string>
     </property>
    </column>
    <column>
     <property name="text">
-     <string>молотый/в зернах</string>
+     <string>Молотый/в зернах</string>
     </property>
    </column>
    <column>
     <property name="text">
-     <string> описание вкуса</string>
+     <string>Описание вкуса</string>
     </property>
    </column>
    <column>
     <property name="text">
-     <string>цена</string>
+     <string>Цена</string>
     </property>
    </column>
    <column>
     <property name="text">
-     <string>объем упаковки</string>
+     <string>Объем упаковки</string>
     </property>
    </column>
+  </widget>
+  <widget class="QPushButton" name="btn_create_new">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>310</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Создать новую
+запись</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_save_all">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>310</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Сохранить</string>
+   </property>
   </widget>
  </widget>
  <resources/>
